@@ -144,6 +144,7 @@ const App = () => {
       console.log('Fetching GIF list...');
       getGifList();
     }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [walletAddress]);
 
   const renderConnectedContainer = () => {
